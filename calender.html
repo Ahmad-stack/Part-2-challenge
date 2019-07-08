@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calender</title>
+		<style type="text/css">
+			body {padding: 70px;
+				background-color: rgb(240 245 249);}
+			.container {
+				text-align: center;
+				display: grid;
+				grid-template: repeat(6, 50px) / repeat(6, minmax(50px, 1fr));
+		grid-gap: 10px;
+			}
+			.border {border: 20px;
+				border: 2px solid black;
+				padding: 20px;
+			}
+			div#tweny {
+				grid-column: 5 / 7;
+				grid-row: 4 / 6;
+			}
+			#title {
+				font-size: 5em;
+			}
+		</style>
+	</head>
+	<body>
+					<div id="title">November</div>
+
+		<div class="container">
+			<div class="border">1</div>
+			<div class="border">2</div>
+			<div class="border">3</div>
+			<div class="border">4</div>
+			<div class="border">5</div>
+			<div class="border">6</div>
+			<div class="border">7</div>
+			<div class="border">8</div>
+			<div class="border">9</div>
+			<div class="border">10</div>
+			<div class="border">11</div>
+			<div class="border">12</div>
+			<div class="border">13</div>
+			<div class="border">14</div>
+			<div class="border">15</div>
+			<div class="border">16</div>
+			<div class="border">17</div>
+			<div class="border">18</div>
+			<div class="border">19</div>
+			<div class="border">20</div>
+			<div class="border">21</div>
+			<div class="border">22</div>
+			<div class="border" id="tweny">23</div>
+			<div class="border">24</div>
+			<div class="border">25</div>
+			<div class="border">26</div>
+			<div class="border">27</div>
+			<div class="border">28</div>
+			<div class="border">29</div>
+			<div class="border">30</div>
+		</div>
+	</body>
+</html>
